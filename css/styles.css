@@ -21,6 +21,7 @@ body {
 
 /* убираем точки списков */
 .list {
+  display: block;
   list-style: none;
 }
 
@@ -325,7 +326,7 @@ address {
   color: var(--white-fontcolor);
 }
 
-.footer-contact-item {
+.footer-contact-item:not(:first-child) {
   margin-top: 9px;
 }
 
