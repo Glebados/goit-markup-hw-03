@@ -21,7 +21,6 @@ body {
 
 /* убираем точки списков */
 .list {
-  display: block;
   list-style: none;
 }
 
@@ -50,6 +49,10 @@ ul {
   padding-left: 15px;
   padding-right: 15px;
   /* outline: 2px solid tomato; */
+}
+
+.image {
+  display: block;
 }
 
 .logo {
